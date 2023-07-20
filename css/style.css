@@ -1,0 +1,68 @@
+.formulario{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.configuracoes{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 10.5%;
+    
+}
+.medidas{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.label_style{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.input_style{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.botao_calcular{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+.resultado{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.t-tora{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.medidas_da_tora{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}

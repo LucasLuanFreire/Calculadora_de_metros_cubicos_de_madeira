@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubicadora de toras</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="principal">
+        <form class="formulario">
+            <section class="configuracoes">
+                <label for="quantia_de_medidas">Quantas medidas ira usar</label>
+                <select name="quantia_de_medidas" 
+                id="quantia_de_medidas"
+                class="quantia_de_medidas">
+                    <option value= 2>2</option>
+                    <option value= 3 >3</option>
+                    <option value= 4 >4</option>
+                </select>
+            </section>
+            <section class="medidas">
+                <label for="Comprimento" class="label_style">Comprimento em Metros</label>
+                <input type="tel" class="input_style medidas_do_comprimento" id="Comprimento">
+                <label for="Medida1" class="label_style">Circunferencia 1 em centimetros
+                </label>
+                <input type="tel" class="input_style medidas_da_circunferencia" id="Medida1">
+                <label for="Medida2"  class="label_style">Circunferencia 2 em centimetros
+                </label>
+                <input type="tel" class="input_style medidas_da_circunferencia" id="Medida2">
+                <label for="Medida3"  class="label_style">Circunferencia 3 em centimetros</label>
+                <input type="tel" class="input_style medidas_da_circunferencia" id="Medida3">
+                <label for="Medida4"  class="label_style">Circunferencia 4 em centimetros</label>
+                <input type="tel" class="input_style medidas_da_circunferencia" id="Medida4">
+            </section>
+            <button class="botao_calcular">Calcular</button>
+        </form>
+        <section class="resultado">
+            <h3 class="t-tora"> A tora possui :</h3>
+            <p class="medidas_da_tora" id="M3"></p>
+            <p class="medidas_da_tora" id="raio-medio"></p>
+            <p class="medidas_da_tora" id="altura"></p>
+
+        </section>
+    </main>
+    <script src="./js/formulario.js"></script>
+    
+</body>
+</html>
